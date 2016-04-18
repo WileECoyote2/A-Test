@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AstarPathfindingProject/changelog.cs">
     <Files>
       <File FileName="Assets/AstarPathfindingProject/changelog.cs" Line="154" Column="5" />
