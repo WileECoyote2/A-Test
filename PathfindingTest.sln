@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{48209002-9FA9-96B2-FADC-1E353AC053B2}") = "PathfindingTest", "Assembly-CSharp-firstpass.csproj", "{B51D568D-4C0F-078F-DE3D-3221F2E97C76}"
 EndProject
+Project("{48209002-9FA9-96B2-FADC-1E353AC053B2}") = "PathfindingTest", "Assembly-CSharp.csproj", "{358EB56C-B388-3364-262C-0D77CA156886}"
+EndProject
 Project("{48209002-9FA9-96B2-FADC-1E353AC053B2}") = "PathfindingTest", "Assembly-CSharp-Editor.csproj", "{5CA4C2A3-4079-AC47-5B45-F70489A83250}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{B51D568D-4C0F-078F-DE3D-3221F2E97C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51D568D-4C0F-078F-DE3D-3221F2E97C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B51D568D-4C0F-078F-DE3D-3221F2E97C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358EB56C-B388-3364-262C-0D77CA156886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358EB56C-B388-3364-262C-0D77CA156886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358EB56C-B388-3364-262C-0D77CA156886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358EB56C-B388-3364-262C-0D77CA156886}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5CA4C2A3-4079-AC47-5B45-F70489A83250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5CA4C2A3-4079-AC47-5B45-F70489A83250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CA4C2A3-4079-AC47-5B45-F70489A83250}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
