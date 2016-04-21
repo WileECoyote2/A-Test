@@ -11,6 +11,8 @@
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
 -r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'
+-r:'Assets/Assets/AssetStoreTools/Editor/AssetStoreTools.dll'
+-r:'Assets/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll'
 -r:'Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll'
 -r:'Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll'
@@ -23,8 +25,6 @@
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll'
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll'
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll'
--r:'Assets/Assets/AssetStoreTools/Editor/AssetStoreTools.dll'
--r:'Assets/Assets/AssetStoreTools/Editor/AssetStoreToolsExtra.dll'
 -r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
 -define:UNITY_5_1_3
 -define:UNITY_5_1

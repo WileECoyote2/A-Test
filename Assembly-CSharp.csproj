@@ -66,7 +66,6 @@
      <Compile Include="Assets\Assets\_CompletedAssets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Assets\_CompletedAssets\Scripts\Player\PlayerShooting.cs" />
      <Compile Include="Assets\CameraFollow.cs" />
-     <Compile Include="Assets\CharMove.cs" />
      <Compile Include="Assets\Move.cs" />
      <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />

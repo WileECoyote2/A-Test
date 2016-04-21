@@ -91,7 +91,6 @@
 'Assets/Assets/_CompletedAssets/Scripts/Player/PlayerMovement.cs'
 'Assets/Assets/_CompletedAssets/Scripts/Player/PlayerShooting.cs'
 'Assets/CameraFollow.cs'
-'Assets/CharMove.cs'
 'Assets/Move.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
