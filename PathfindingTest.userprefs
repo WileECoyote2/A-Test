@@ -1,5 +1,5 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Assets/Scripts/Player/PlayerMovement.cs">
     <Files>
       <File FileName="Assets/Assets/Scripts/Player/PlayerMovement.cs" Line="85" Column="2" />
