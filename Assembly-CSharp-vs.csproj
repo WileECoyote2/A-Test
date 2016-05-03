@@ -65,9 +65,10 @@
      <Compile Include="Assets\Assets\_CompletedAssets\Scripts\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Assets\_CompletedAssets\Scripts\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Assets\_CompletedAssets\Scripts\Player\PlayerShooting.cs" />
-     <Compile Include="Assets\CameraFollow.cs" />
-     <Compile Include="Assets\Move.cs" />
-     <Compile Include="Assets\SkeletonSpawn.cs" />
+     <Compile Include="Assets\Prefabs\Rocket.cs" />
+     <Compile Include="Assets\Prefabs\Shoot.cs" />
+     <Compile Include="Assets\Scripts\Move.cs" />
+     <Compile Include="Assets\Scripts\SkeletonSpawn.cs" />
      <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />
      <None Include="Assets\Plugins\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
