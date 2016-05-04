@@ -11,7 +11,8 @@ namespace UnityStandardAssets.Effects
 
 
         private void Start()
-        {
+        {	
+			Destroy (gameObject, 1f);
             var systems = GetComponentsInChildren<ParticleSystem>();
             foreach (ParticleSystem system in systems)
             {
@@ -20,6 +21,7 @@ namespace UnityStandardAssets.Effects
                 system.startLifetime *= Mathf.Lerp(multiplier, 1, 0.5f);
                 system.Clear();
                 system.Play();
+
             }
         }
     }
