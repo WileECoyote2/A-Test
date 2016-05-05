@@ -4,11 +4,18 @@ using System.Collections;
 public class Shoot : MonoBehaviour {
 	// Rocket Prefab
 	public GameObject rocketPrefab;
+	AudioSource gunAudio;
+
+	void Awake ()
+	{
+		gunAudio = GetComponent<AudioSource> ();
+		}
 	
 	// Update is called once per frame
 	void Update () {
 		// left mouse clicked?
 		if (Input.GetMouseButtonDown(0)) {
+			gunAudio.Play ();
 			// spawn rocket
 			// - Instantiate means 'throw the prefab into the game world'
 			// - (GameObject) cast is required because unity is stupid
@@ -23,6 +30,7 @@ public class Shoot : MonoBehaviour {
 			GameObject g = (GameObject)Instantiate(rocketPrefab,
 			                                       transform.position,
 			                                       transform.parent.rotation);
+
 			
 			// make the rocket fly forward by simply calling the rigidbody's
 			// AddForce method

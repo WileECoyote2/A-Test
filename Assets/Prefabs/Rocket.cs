@@ -2,6 +2,12 @@
 using System.Collections;
 
 public class Rocket: MonoBehaviour {
+
+	AudioSource rocketBoom;
+
+	void Awake{
+		rocketBoom = GetComponent<AudioSource> ();
+	}
 	// The fly speed (used by the weapon later)
 	public float speed = 2000.0f;
 	
@@ -15,6 +21,7 @@ public class Rocket: MonoBehaviour {
 		//   where the rocket is
 		// - Quaternion.identity because it should
 		//   have the default rotation
+		rocketBoom.Play;
 		Instantiate(explosionPrefab,
 		            transform.position,
 		            Quaternion.identity);
@@ -24,6 +31,7 @@ public class Rocket: MonoBehaviour {
 		//  Destroy(this) would just destroy the rocket
 		//                script attached to it
 		//  Destroy(gameObject) destroys the whole thing
+
 		Destroy(gameObject);
 	}
 }
