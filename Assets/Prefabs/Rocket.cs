@@ -3,10 +3,10 @@ using System.Collections;
 
 public class Rocket: MonoBehaviour {
 
-	AudioSource rocketBoom;
+	AudioSource boomAudio;
 
-	void Awake{
-		rocketBoom = GetComponent<AudioSource> ();
+	void Awake () {
+		boomAudio = GetComponent<AudioSource> ();
 	}
 	// The fly speed (used by the weapon later)
 	public float speed = 2000.0f;
@@ -21,7 +21,6 @@ public class Rocket: MonoBehaviour {
 		//   where the rocket is
 		// - Quaternion.identity because it should
 		//   have the default rotation
-		rocketBoom.Play;
 		Instantiate(explosionPrefab,
 		            transform.position,
 		            Quaternion.identity);
@@ -34,4 +33,14 @@ public class Rocket: MonoBehaviour {
 
 		Destroy(gameObject);
 	}
+	void OnTriggerEnter (Collider other) 
+	{
+		if(other.gameObject.tag == "Floor")
+		{
+			boomAudio.Play ();
+		}
+		
+	}
+
+
 }
