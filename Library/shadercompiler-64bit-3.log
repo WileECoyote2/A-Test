@@ -9,3 +9,6 @@ Cmd: compileSnippet
   api=0 type=0 insize=7233 outsize=5042 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=1
 Cmd: compileSnippet
   api=0 type=0 insize=7737 outsize=4665 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=1
+End of pipe
+
+Quitting shader compiler process

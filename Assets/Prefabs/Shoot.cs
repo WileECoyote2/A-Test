@@ -4,7 +4,7 @@ using System.Collections;
 public class Shoot : MonoBehaviour {
 	// Rocket Prefab
 	public GameObject rocketPrefab;
-	AudioSource gunAudio;
+AudioSource gunAudio;
 
 	void Awake ()
 	{
