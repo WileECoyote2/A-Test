@@ -24,7 +24,7 @@ public class Rocket: MonoBehaviour {
 		Instantiate(explosionPrefab,
 		            transform.position,
 		            Quaternion.identity);
-		
+		boomAudio.Play ();
 		// destroy the rocket
 		// note:
 		//  Destroy(this) would just destroy the rocket
@@ -32,14 +32,6 @@ public class Rocket: MonoBehaviour {
 		//  Destroy(gameObject) destroys the whole thing
 
 		Destroy(gameObject);
-	}
-	void OnTriggerEnter (Collider other) 
-	{
-		if(other.gameObject.tag == "Floor")
-		{
-			boomAudio.Play ();
-		}
-		
 	}
 
 
