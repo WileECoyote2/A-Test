@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class Shoot : MonoBehaviour {
+	public float timeBetweenBullets = 0.15f;
 	// Rocket Prefab
 	public GameObject rocketPrefab;
+	float timer;
 AudioSource gunAudio;
 
 	void Awake ()
@@ -14,7 +16,10 @@ AudioSource gunAudio;
 	// Update is called once per frame
 	void Update () {
 		// left mouse clicked?
-		if (Input.GetMouseButtonDown(0)) {
+		timer += Time.deltaTime;
+		
+		if(Input.GetButton ("Fire2") && timer >= timeBetweenBullets)
+		{
 			gunAudio.Play ();
 			// spawn rocket
 			// - Instantiate means 'throw the prefab into the game world'
